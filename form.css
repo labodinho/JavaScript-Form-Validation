@@ -1,0 +1,44 @@
+.container{
+    background-image: url(/desk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Georgia;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+}
+label{
+    color: rgb(0, 51, 128);
+    text-transform: uppercase;
+}
+
+input{
+    width: 250px;
+}
+
+button{
+    color: rgb(0, 51, 128);
+    font-weight: 800;
+    background-color: crimson;
+    border: 2px solid black;
+    width: 150px;
+    border-radius: 30px;
+}
+
+button:hover{
+    background-color: gray;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+.text{
+    color:rgb(255, 0, 128);
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#msg, .text{
+    padding: 20px 20px;
+    margin: 20px;
+}
